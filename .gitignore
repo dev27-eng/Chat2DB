@@ -15,6 +15,7 @@
 
 ### Visual Studio Code ###
 package-lock.json
+!services/leasecheck-backend/package-lock.json
 
 ### Mac
 .DS_Store
@@ -29,3 +30,5 @@ package-lock.json
 /chat2db-server/ali-dbhub-server-domain/ali-dbhub-server-domain-support/lib/*
 /lib
 /out/*
+# Hostinger bundles
+deployment/leasecheck-cloud/leasecheck-cloud-package.tar.gz

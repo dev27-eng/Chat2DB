@@ -21,6 +21,11 @@ export default defineConfig({
   hash: true,
   routes: [
     {
+      path: '/colorado-lease-check',
+      component: '@/pages/colorado-lease-check',
+      layout: false,
+    },
+    {
       path: '/',
       component: '@/layouts/GlobalLayout',
       routes: [
@@ -62,7 +67,7 @@ export default defineConfig({
   chainWebpack,
   proxy: {
     '/api': {
-      target: 'http://127.0.0.1:10821',
+      target: 'http://127.0.0.1:8080',
       changeOrigin: true,
     },
     '/client/remaininguses/': {
